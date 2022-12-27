@@ -9,6 +9,13 @@ export default function App() {
         <h1>Weather App</h1>
         <WeatherSearch />
       </header>
+
+      <fotter>
+        This project was created by Sanja Plazonić and it is{" "}
+        <a href="https://github.com/NjaSa58/weather-react-app" target="_blank">
+          open-sourced on GitHub.
+        </a>
+      </fotter>
     </div>
   );
 }
