@@ -1,7 +1,5 @@
 import React, { useState } from "react";
 import axios from "axios";
-import Button from "react-bootstrap/Button";
-import Form from "react-bootstrap/Form";
 
 export default function WeatherSearch() {
   const [city, setCity] = useState("");
@@ -31,14 +29,14 @@ export default function WeatherSearch() {
   }
 
   let form = (
-    <Form onSubmit={handleSubmit}>
+    <form onSubmit={handleSubmit}>
       <input
         type="search"
         placeholder="Enter a city..."
         onChange={updateCity}
       />
-      <Button type="submit">Search</Button>
-    </Form>
+      <button type="submit">Search</button>
+    </form>
   );
   if (loaded) {
     return (
