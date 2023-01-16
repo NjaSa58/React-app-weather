@@ -1,7 +1,6 @@
-import React, { useState } from "react";
-import axios from "axios";
+//kopirano iz Weather.js
 
-export default function WeatherSearch() {
+export default function Weather() {
   const [city, setCity] = useState("");
   const [loaded, setLoaded] = useState(false);
   const [weather, setWeather] = useState({});
