@@ -13,7 +13,7 @@ export default function App() {
         <footer>
           This project was created by Sanja Plazonić and it is{" "}
           <a
-            href="https://github.com/NjaSa58/weather-react-app"
+            href="https://github.com/NjaSa58/React-app-weather"
             target="_blank"
           >
             open-sourced on GitHub.
